@@ -1,20 +1,11 @@
-import Image from 'next/image'
-import styles from '../app/styles/styles.module.css'
-
 import { Header } from '../components/Header'
+import { HeroSection } from '../components/HeroSection'
 
 export default function Home() {
   return (
     <main>
       <Header />
-      <section>
-        <div className={styles.show}>
-
-        </div>
-      </section>
-      <section>
-
-      </section>
+      <HeroSection />
     </main>
   )
 }

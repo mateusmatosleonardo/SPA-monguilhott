@@ -7,12 +7,14 @@ export function Header() {
       style={{ borderColor: 'rgba(255, 255, 255, 0.2)' }}>
       <div className="container px-6 flex items-center justify-between">
         <div className="h-11">
-          <Image
-            src="/logo.png"
-            width={120}
-            height={200}
-            alt="Logo"
-          />
+          <a href="">
+            <Image
+              src="/logo.png"
+              width={120}
+              height={200}
+              alt="Logo"
+            />
+          </a>
         </div>
         <nav>
           <ul className="flex gap-10 text-white font-roboto ">
