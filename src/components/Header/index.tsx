@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from './header.module.css';
+import { HiOutlineMenu } from 'react-icons/hi';
 
 export function Header() {
   return (
@@ -16,8 +17,8 @@ export function Header() {
             />
           </a>
         </div>
-        <nav>
-          <ul className="flex gap-10 text-white font-roboto ">
+        <nav className="hidden lg:block">
+          <ul className="flex gap-10 text-white font-roboto">
             <li className="relative hover:text-custom-green transition-colors ease-in duration-150">
               <a href="">Invisalign</a>
               <span className={styles.hoverSpan}></span>
@@ -36,9 +37,12 @@ export function Header() {
             </li>
           </ul>
         </nav>
-        <div>
+        <div className="hidden lg:block">
           <span className="text-white text-lg font-serif">(11) 98288-5240</span>
         </div>
+        <a href="" className="block lg:hidden">
+          <HiOutlineMenu size={33} color="#ffffff" />
+        </a>
       </div>
     </header >
   )
