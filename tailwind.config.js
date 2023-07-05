@@ -11,6 +11,12 @@ module.exports = {
         "custom-green": "#509d87",
         "custon-green-light": "#03ca97",
       },
+      width: {
+        TwoPx: 2,
+      },
+      height: {
+        TwoPx: 2,
+      },
     },
   },
   plugins: [],
