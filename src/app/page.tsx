@@ -1,7 +1,7 @@
 import { About } from '../components/About'
 import { Differences } from '../components/Differences'
 import { Differentials } from '../components/Differentials'
-import { Footer } from '../components/Footer/Footer'
+import { Footer } from '../components/Footer'
 import { Form } from '../components/Form'
 import { Header } from '../components/Header'
 import { HeroSection } from '../components/HeroSection'
